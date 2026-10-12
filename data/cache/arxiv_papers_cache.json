@@ -52,5 +52,73 @@
     "category": "cs.AI",
     "url": "https://arxiv.org/pdf/2610.13948v1",
     "doi": ""
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2610.13935v1",
+    "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+    "abstract": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They require access to model weights or large concept-annotated datasets, and most methods cannot provide image-level attribution. We propose Hide and Seek (HnS), a new method for concept-level attribution that does not require access to model weights or labeled concept datasets. HnS can interpret a wide range of vision models. Given a concept and image set, HnS retrieves concept-aligned images using a vision-language model, localizes the concept within each image, masks the localized region, and measures attribution from the change in the black-box model's output between the original and masked images. This enables faithful attribution by directly measuring the model's behavior and supporting local attributions. We validated HnS on CelebA and COCO-Stuff. Compared to existing methods, HnS showed better agreement with ground-truth attributions. We demonstrated the applicability of HnS on diverse tasks, including image captioning and satellite image segmentation, where no existing concept attribution method can be used. We provided our anonymous code in the supplementary material.",
+    "authors": [
+      "Bhanu Tokas",
+      "Rahul Nair",
+      "Rockwell Jackson",
+      "Hannah Kerner"
+    ],
+    "published": "2026-10-09T17:56:59Z",
+    "category": "cs.CV",
+    "url": "https://arxiv.org/pdf/2610.13935v1",
+    "doi": ""
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2610.13931v1",
+    "title": "Constructive Bounds for the Topological Expressivity of Neural Networks",
+    "abstract": "The expressivity of a neural network $\u03a6$ describes the class of functions that a network can express. The term topological expressivity refers to a family of measures particularly suited to understand binary classification and is often formulated in terms of the Betti numbers of a decision boundary $\u03b2(\u03a6^{-1}(0))$. Despite its popularity, this measure is not as useful for regression and other problems that do not involve a decision boundary. Instead, we propose to study topological expressivity in terms of the Betti numbers of the output of a neural network $\u03b2(\u03a6(X))$. We formally prove that a ReLU network with architecture $(d,\\sum\\limits_{k=1}^{d } \u03b2_k(3k+2),\\sum\\limits_{k=1}^{d}\u03b2_k(k+1))$ can express spaces homotopy equivalent to wedge sums of spheres with arbitrary Betti numbers. This gives upper bounds for any arbitrary connected ($\u03b2_0=1$) sequence of Betti numbers, but by constructing spaces homotopy equivalent to products of $N$ spheres of dimension $d_1,...,d_N$ we achieve much better bounds $(\\sum\\limits_{n=1} d_n, 3\\sum\\limits_{n=1}\\limits^N d_n + 2N, \\sum\\limits_{n=1}\\limits^N d_n + N) $ for Betti numbers given by $\\prod_n (1+x^{d_n})$. Finally we conjecture a much stronger tight bound which gives the architectural bound $(d,d+1,d+1)$ for a space homeomorphic to the sphere.",
+    "authors": [
+      "Kosio Beshkov"
+    ],
+    "published": "2026-10-09T17:55:33Z",
+    "category": "math.AT",
+    "url": "https://arxiv.org/pdf/2610.13931v1",
+    "doi": ""
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2610.13945v1",
+    "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
+    "abstract": "A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. Yet even a strong generalist like $\u03c0_{0.5}$ achieves 0% pickup success in our captured deployment scenes without adaptation, and collecting real demonstrations in every user's environment is prohibitively expensive. We present Splat2Act, an automated real-to-sim-to-real pipeline that personalizes a pretrained vision-language-action (VLA) policy to a specific scene and object set using only a handheld phone scan and images of the user's objects. Unlike prior real-to-sim work that reconstructs individual tabletops, Splat2Act operates on building-scale indoor environments: it builds a photorealistic digital twin with 3D Gaussian Splatting and collision geometry, automatically discovers tabletop and non-tabletop receptacles, constructs feasible pickup tasks, and generates successful demonstrations with a privileged simulation oracle, with only scene and object capture required from a human. Applied to 101 scanned campus environments with a median navigable area of 104.87 m$^2$ and 7 receptacles, the pipeline yields 852 receptacles and over 68,000 pickup demonstrations. We fine-tune $\u03c0_{0.5}$ in two stages: Stage 1 adapts to hundreds of public object assets, drawn either from the deployment scene alone or from all 101 scenes; Stage 2 personalizes to the user's own objects on the deployment scene's receptacles. Our strongest personalized policy reaches 62.5% aggregate pickup success in the target scene. Deployed on a real Stretch 3, the same policy achieves 63.9% success on a 12-task subset, closely tracking its 66.7% simulated success on those tasks. These results suggest that automated real-to-sim-to-real training can personalize VLA manipulation policies using only simulation-oracle data.",
+    "authors": [
+      "Xiaomeng Ye",
+      "Krishna Jaganathan",
+      "Gyubeum Lim",
+      "Gunjan Chhablani",
+      "Muhammad Zubair Irshad",
+      "Zsolt Kira"
+    ],
+    "published": "2026-10-09T17:59:06Z",
+    "category": "cs.RO",
+    "url": "https://arxiv.org/pdf/2610.13945v1",
+    "doi": ""
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2610.13946v1",
+    "title": "An entangling Hubbard quasiparticle collider on a digital quantum processor",
+    "abstract": "Scattering of quasiparticles provides direct access to the interactions that govern strongly correlated systems. In this work, we realize the quasiparticle scattering experiment of the Fermi-Hubbard model on a digital quantum processor by colliding a doublon and a holon in the half-filled chain of 21 sites encoded on 42 qubits of the ibm_boston processor. For the first time, we measure the transmission probability of quasiparticles of the Hubbard model on quantum hardware, which agrees with the Bethe-ansatz scattering matrix without free parameters. Beyond the scattering probabilities, the collision generates entanglement by superposing the transmitted and reflected components, which we infer from the particle-number fluctuation. In sharp contrast, a control collision between two doublons shows neither the interaction dependence nor the number fluctuation, as expected for indistinguishable particles. Our work demonstrates that the ability to create quasiparticles of a chosen flavor on demand and program their motion and interactions makes a digital quantum processor a new experimental toolset for probing the entanglement structure generated by quasiparticle scattering.",
+    "authors": [
+      "Chan Bin Bark",
+      "Hanbyul Kim",
+      "Yoonil Koo",
+      "SeungBeom Hong",
+      "Seik Pak",
+      "Kwang Jun Ahn",
+      "Sangmo Cheon",
+      "Youngseok Kim",
+      "Moon Jip Park"
+    ],
+    "published": "2026-10-09T17:59:06Z",
+    "category": "quant-ph",
+    "url": "https://arxiv.org/pdf/2610.13946v1",
+    "doi": ""
   }
 ]

@@ -36,5 +36,37 @@
     "category": "q-bio",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42784491/",
     "doi": "42784491"
+  },
+  {
+    "source": "pubmed",
+    "id": "PMID:42431983",
+    "title": "Personalized learning path recommendation for middle school students based on joint optimization of deep reinforcement learning and knowledge tracing.",
+    "abstract": "Study published in Sci Rep investigating personalized learning path recommendation for middle school students based on joint optimization of deep reinforcement learning and knowledge tracing.",
+    "authors": [
+      "Zhao J",
+      "Kuang J",
+      "Deng S",
+      "Kuang R",
+      "Zhang Z"
+    ],
+    "published": "2026 Jul 10",
+    "category": "q-bio",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42431983/",
+    "doi": "42431983"
+  },
+  {
+    "source": "pubmed",
+    "id": "PMID:42505509",
+    "title": "Adaptive Digital Marketing: A Systematic Review of Bio-Inspired Reinforcement Learning, Multi-Agent Systems, and Agentic AI for Intelligent Optimisation.",
+    "abstract": "Study published in Biomimetics (Basel) investigating adaptive digital marketing: a systematic review of bio-inspired reinforcement learning, multi-agent systems, and agentic ai for intelligent optimisation.",
+    "authors": [
+      "Adhikari TN",
+      "Sayers W",
+      "Zhang S"
+    ],
+    "published": "2026 Jul 8",
+    "category": "q-bio",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42505509/",
+    "doi": "42505509"
   }
 ]
