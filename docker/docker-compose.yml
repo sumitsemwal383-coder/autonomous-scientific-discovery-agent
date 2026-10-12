@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  # Isolated Code Executor Sandbox
+  code-executor-sandbox:
+    build:
+      context: .
+      dockerfile: Dockerfile.sandbox
+    image: zaalima-discovery-sandbox:latest
+    container_name: zaalima_code_sandbox
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=64m
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 512M
+
+  # Optional Milvus Vector Database Standalone Service
+  milvus-standalone:
+    image: milvusdb/milvus:v2.3.4
+    container_name: zaalima_milvus_db
+    command: ["milvus", "run", "standalone"]
+    environment:
+      ETCD_ENDPOINTS: etcd:2379
+      MINIO_ADDRESS: minio:9000
+    ports:
+      - "19530:19530"
+      - "9091:9091"
+    profiles:
+      - milvus-cluster
+
+  # Monitoring Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: zaalima_redis_cache
+    ports:
+      - "6379:6379"

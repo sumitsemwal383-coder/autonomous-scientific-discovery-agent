@@ -1,0 +1,42 @@
+# Agent Role Definitions and System Prompts
+# Enterprise Autonomous Multimodal Scientific Discovery Agent
+
+roles:
+  literature_reviewer:
+    name: "Literature Reviewer"
+    description: "Autonomously searches, parses, and extracts knowledge from ArXiv & PubMed preprints, identifying research gaps and grounding all findings."
+    max_papers_per_query: 10
+    sources: ["arxiv", "pubmed"]
+    domains: ["cs.AI", "cs.LG", "stat.ML", "q-bio.NC", "quant-ph"]
+
+  hypothesis_generator:
+    name: "Hypothesis Generator"
+    description: "Formulates falsifiable scientific hypotheses strictly grounded in literature retrieved via RAG, proposing formal variables and testing criteria."
+    grounding_strictness: 0.95
+    temperature: 0.7
+    falsifiability_check: true
+
+  code_executor:
+    name: "Code Executor"
+    description: "Generates robust, secure experimental Python code to validate hypotheses, executing within an isolated sandbox environment."
+    allowed_libraries: ["numpy", "scipy", "pandas", "sklearn", "math", "random"]
+    timeout_seconds: 30
+    sandbox_mode: "hardened_subproc"
+
+  critic_agent:
+    name: "Statistical Critic"
+    description: "Performs rigorous hypothesis testing on empirical outputs, computing p-values, 95% confidence intervals, Cohen's d effect sizes, and power."
+    alpha: 0.05
+    min_power: 0.80
+    min_effect_size: 0.30
+
+  multimodal_ingestor:
+    name: "Multimodal Document Ingestor"
+    description: "Extracts charts, figures, and statistical plots from research PDFs, translating visual information into structured numerical findings."
+    supported_formats: [".pdf", ".png", ".jpg"]
+
+  synthesis_module:
+    name: "Academic Synthesis Engine"
+    description: "Compiles verified empirical results, theoretical rationale, literature citations, and figures into LaTeX-formatted scientific paper drafts."
+    format: "latex"
+    citation_style: "bibtex"

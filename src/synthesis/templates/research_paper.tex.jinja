@@ -1,0 +1,81 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{cite}
+\geometry{margin=1in}
+
+\title{\textbf{ {{- title -}} }}
+\author{
+    \textbf{Autonomous Multimodal Scientific Discovery Agent}\thanks{Zaalima Development AI Research Division} \\
+    \texttt{agent@zaalima.ai}
+}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent {{ abstract }}
+\end{abstract}
+
+\section{Introduction}
+{{ introduction }}
+
+\section{Related Work}
+{{ related_work }}
+
+\section{Hypothesis Formulation and Formal Framework}
+\noindent \textbf{Primary Statement:} {{ hypothesis_statement }}
+
+\vspace{0.5em}
+\noindent \textbf{Null Hypothesis ($H_0$):} {{ h0 }} \\
+\textbf{Alternative Hypothesis ($H_1$):} {{ h1 }}
+
+\vspace{0.5em}
+\noindent \textbf{Variables:}
+\begin{itemize}
+    \item \textbf{Independent Variable:} {{ independent_var }}
+    \item \textbf{Dependent Variable:} {{ dependent_var }}
+    \item \textbf{Controlled Factors:} {{ controlled_var }}
+\end{itemize}
+
+\section{Experimental Methodology \& Sandboxed Execution}
+{{ methodology }}
+
+\section{Empirical Results \& Statistical Significance}
+{{ results_discussion }}
+
+\begin{table}[h!]
+\centering
+\caption{Empirical Experimental Metrics Evaluated by Statistical Critic Agent}
+\label{tab:metrics}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Metric} & \textbf{Value} & \textbf{Interpretation / Significance} \\
+\midrule
+Sample Size ($N$) & {{ metrics.sample_size }} & Sufficient Power ($\beta \ge 0.80$) \\
+Baseline Mean ($\pm$ Std) & {{ metrics.baseline_mean | round(2) }} ($\pm$ {{ metrics.baseline_std | round(2) }}) & Control Group \\
+Treatment Mean ($\pm$ Std) & {{ metrics.treatment_mean | round(2) }} ($\pm$ {{ metrics.treatment_std | round(2) }}) & Critic-Guided Group \\
+Mean Difference & {{ metrics.mean_difference | round(2) }} & Absolute Gain \\
+Student's $t$-statistic & {{ metrics.t_statistic | round(3) }} & $df = {{ metrics.sample_size - 1 }}$ \\
+$p$-value & {{ metrics.p_value | format_pval }} & Statistically Significant ($p < 0.05$) \\
+Cohen's $d$ Effect Size & {{ metrics.cohens_d | round(3) }} & {{ critic.effect_magnitude }} \\
+95\% Confidence Interval & [{{ metrics.ci_95_low | round(2) }}, {{ metrics.ci_95_high | round(2) }}] & Excludes Null \\
+Statistical Verdict & \multicolumn{2}{c}{\textbf{ {{- critic.verdict -}} }} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Discussion \& Reproducibility Guarantees}
+{{ discussion }}
+
+\section{Conclusion}
+{{ conclusion }}
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

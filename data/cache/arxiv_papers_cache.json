@@ -1,0 +1,56 @@
+[
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2610.13947v1",
+    "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+    "abstract": "In this paper, we study physically grounded articulated 3D asset generation---moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articraft by introducing a multi-agent pipeline with physical simulation feedback, enabling comprehensive attributes beyond geometry, appearance, and physically plausible articulation, such as collision-free motion, stability under gravity, and accurate mass and material properties. Furthermore, we construct a unified benchmark spanning four key aspects: spatial fidelity, physical plausibility, downstream task performance, and overall quality. The benchmark encompasses 100 reference assets from ArtVIP and LightWheel, 50 stability prompts, and 50 ABO objects with reference masses, with protocols evaluating various metrics. Through extensive evaluation of more than 10 representative models, Artisan achieves competitive spatial fidelity while attaining the lowest collision rates and highest stability rates among the evaluated methods. Together, our system and benchmark establish insights for advancing 3D generation towards physically plausible, functionally usable assets.",
+    "authors": [
+      "Xudong Cai",
+      "Ruijie Zhu",
+      "Haoliang Shang",
+      "Ruining Li",
+      "Marc Pollefeys",
+      "Shangzhe Wu",
+      "Andrea Vedaldi",
+      "Chuanxia Zheng"
+    ],
+    "published": "2026-10-09T17:59:41Z",
+    "category": "cs.CV",
+    "url": "https://arxiv.org/pdf/2610.13947v1",
+    "doi": ""
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2610.13943v1",
+    "title": "Noise Space Learning for VLA Adaptation",
+    "abstract": "Pretrained vision-language-action (VLA) models encode broad manipulation priors, yet adapting them to specific tasks requires balancing limited robot interaction, computational resources, and safety constraints. Noise space learning (NSL) adapts flow-matching-based VLAs by learning a context-conditioned distribution over noise while keeping the pretrained VLA fixed. Building on prior noise-steering methods, we formulate NSL as an interface for VLA adaptation that accommodates different learning algorithms and instantiate it with PPO, SAC, and AWR. Theoretically, we provide an information-theoretic analysis of how NSL enables efficient adaptation. Empirically, we study these NSL algorithms on LIBERO, RoboTwin, and four real-robot manipulation tasks under interaction, computation, and execution constraints. Across these settings, we develop a suite of effective NSL variants and derive practical recommendations for choosing among them under different resource and deployment regimes.",
+    "authors": [
+      "Junjie Lu",
+      "Chuheng Zhang",
+      "Yucen Wang",
+      "Yuhua Jiang",
+      "Xinyao Qin",
+      "Min Xu",
+      "Li Zhao"
+    ],
+    "published": "2026-10-09T17:58:50Z",
+    "category": "cs.RO",
+    "url": "https://arxiv.org/pdf/2610.13943v1",
+    "doi": ""
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2610.13948v1",
+    "title": "Can Language Models Play the Wikipedia Game?",
+    "abstract": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous information retrieval task. In the game, players must reach a target article using only article links. We compared sentence embedding models and LLMs across five Wikipedia languages and five academic-literature datasets. We construct very large local graphs of Wikipedia pages and of paper citations using OpenAlex and provide code to build and navigate them. This allows the study of language models' navigation capabilities without relying on third-party APIs. We compared the models with human and TF-IDF benchmarks. The Wikipedia Game format enables robust comparisons across techniques, languages, and domains. No model significantly outperformed humans, although the best models (GPT-o3 mini, GPT-4o, QwQ:32B, and DeepSeek-R1:70B) achieved comparable success. Performance and rankings varied across languages and topics, with implications for practitioners utilising these techniques.",
+    "authors": [
+      "Alexander Hickey",
+      "Joanna Knight",
+      "James Bishop"
+    ],
+    "published": "2026-10-09T17:59:56Z",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2610.13948v1",
+    "doi": ""
+  }
+]

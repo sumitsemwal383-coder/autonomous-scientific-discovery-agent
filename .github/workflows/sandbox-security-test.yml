@@ -1,0 +1,26 @@
+name: Sandbox Security & Breakout Prevention Audit
+
+on:
+  push:
+    branches: [ main, "feature/**" ]
+  schedule:
+    - cron: '0 0 * * *' # Nightly security audit
+
+jobs:
+  audit-sandbox:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Execute Penetration Tests & Breakout Audit
+        run: python scripts/run_security_audit.py

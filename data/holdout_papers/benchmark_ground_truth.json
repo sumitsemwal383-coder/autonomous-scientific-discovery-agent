@@ -1,0 +1,35 @@
+[
+  {
+    "benchmark_id": "BENCH-001",
+    "domain": "Artificial Intelligence / Reasoning",
+    "target_topic": "Language Models Can Teach Themselves to Think Before Speaking",
+    "human_reference_paper": "Quiet-STaR: Language Models Can Teach Themselves to Think",
+    "expected_effect": "Statistical improvement in reasoning benchmarks over non-reflective models",
+    "expected_cohens_d_range": [0.6, 1.2],
+    "expected_alpha": 0.05,
+    "ground_truth_p_value": 0.00012,
+    "min_required_sample_size": 80
+  },
+  {
+    "benchmark_id": "BENCH-002",
+    "domain": "Direct Policy Optimization",
+    "target_topic": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "human_reference_paper": "Direct Preference Optimization (DPO)",
+    "expected_effect": "Closed-form policy optimization stabilizes training loss variance",
+    "expected_cohens_d_range": [0.5, 0.95],
+    "expected_alpha": 0.05,
+    "ground_truth_p_value": 0.00045,
+    "min_required_sample_size": 100
+  },
+  {
+    "benchmark_id": "BENCH-003",
+    "domain": "Self-Reflection Language Agents",
+    "target_topic": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "human_reference_paper": "Reflexion Verbal RL",
+    "expected_effect": "Dynamic verbal memory reduces code execution runtime errors",
+    "expected_cohens_d_range": [0.7, 1.4],
+    "expected_alpha": 0.05,
+    "ground_truth_p_value": 0.00008,
+    "min_required_sample_size": 50
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "source": "pubmed",
+    "id": "PMID:42763979",
+    "title": "CReaTe-LM: A large language model for stepwise, heuristic clinical reasoning instruction.",
+    "abstract": "Study published in Artif Intell Med investigating create-lm: a large language model for stepwise, heuristic clinical reasoning instruction.",
+    "authors": [
+      "Zhao Z",
+      "Wang S",
+      "Chen R",
+      "Tian S",
+      "Wu F",
+      "Hu H",
+      "Hao P"
+    ],
+    "published": "2026 Dec",
+    "category": "q-bio",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42763979/",
+    "doi": "42763979"
+  },
+  {
+    "source": "pubmed",
+    "id": "PMID:42784491",
+    "title": "RexDrug: Reliable Multi-Drug Combination Extraction Through Reasoning-Enhanced LLMs.",
+    "abstract": "Study published in IEEE J Biomed Health Inform investigating rexdrug: reliable multi-drug combination extraction through reasoning-enhanced llms.",
+    "authors": [
+      "Wang Z",
+      "Luo L",
+      "Pan D",
+      "Zhuang H",
+      "Yu L",
+      "Sun Y",
+      "Lin H"
+    ],
+    "published": "2026 Sep 24",
+    "category": "q-bio",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42784491/",
+    "doi": "42784491"
+  }
+]
