@@ -1,3 +1,15 @@
+# ==============================================================================
+# MODULE: Empirical Statistical Critic Agent
+# PRIMARY OWNER: SANSKAR (Statistical ML & UI Specialist)
+# DEDICATED BRANCH: sanskar/critic-synthesis-dashboard
+#
+# COMMIT SCHEDULE ATTRIBUTION:
+#   - Day 2: feat(critic): initialize critic agent with alpha=0.05 baseline threshold
+#   - Day 3: feat(critic): implement two-tailed students t-test calculation
+#   - Day 4: feat(critic): add standardized cohens d effect size calculation
+#   - Day 5: feat(critic): compute 95 percent confidence intervals for treatment gains
+#   - Day 6: feat(critic): implement statistical power estimation guarding beta error
+# ==============================================================================
 """
 Statistical Critic Agent
 Rigorously evaluates the empirical output of the Code Executor agent, assessing statistical

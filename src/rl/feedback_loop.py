@@ -1,3 +1,13 @@
+# ==============================================================================
+# MODULE: Reinforcement Learning Reflexion Self-Debugging Loop
+# PRIMARY OWNER: SUMEET (Team Lead / Systems & Security)
+# DEDICATED BRANCH: sumeet/orchestrator-sandbox-rl
+#
+# COMMIT SCHEDULE ATTRIBUTION:
+#   - Day 13: feat(rl): implement diagnostic stack trace parser for runtime errors
+#   - Day 14: feat(rl): generate actionable verbal reflexions to guide code rewrites
+#   - Day 21: test(rl): validate autonomous code repair across 2 debug iterations
+# ==============================================================================
 """
 Reinforcement Learning Self-Debugging Feedback Loop
 Analyzes execution errors, traces exceptions, generates actionable reflexions,

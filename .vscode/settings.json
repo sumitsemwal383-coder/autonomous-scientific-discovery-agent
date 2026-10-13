@@ -1,0 +1,11 @@
+{
+  "python.analysis.extraPaths": ["${workspaceFolder}"],
+  "python.testing.unittestEnabled": true,
+  "python.testing.unittestArgs": ["-v", "-s", "./tests", "-p", "test_*.py"],
+  "files.associations": {
+    "*.tex": "latex",
+    "*.jinja": "jinja-html"
+  },
+  "editor.formatOnSave": true,
+  "git.autofetch": true
+}

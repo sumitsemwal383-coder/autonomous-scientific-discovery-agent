@@ -1,3 +1,18 @@
+# ==============================================================================
+# MODULE: Live Streamlit Supervisor Monitoring Dashboard
+# PRIMARY OWNER: SANSKAR (Statistical ML & UI Specialist)
+# DEDICATED BRANCH: sanskar/critic-synthesis-dashboard
+#
+# COMMIT SCHEDULE ATTRIBUTION:
+#   - Day 17: feat(dashboard): initialize streamlit supervisor console layout
+#   - Day 18: feat(dashboard): add interactive logic tree state machine visualizer
+#   - Day 19: feat(dashboard): build literature knowledge base explorer and citation viewer
+#   - Day 20: feat(dashboard): build sandbox execution telemetry and code inspector tab
+#   - Day 21: feat(dashboard): add empirical distribution charts and critic metric cards
+#   - Day 22: feat(dashboard): add latex manuscript preview and one-click download
+#   - Day 23: feat(dashboard): integrate real-time token tracking and cost analytics
+#   - Day 27: style(dashboard): refine custom css styling, badges, and layout
+# ==============================================================================
 """
 Live Supervisor Monitoring Dashboard
 Interactive Streamlit application to monitor multi-agent logic trees, literature citations,

@@ -1,3 +1,13 @@
+# ==============================================================================
+# MODULE: Persistent Dense Vector Database & Milvus/Pinecone Adapters
+# PRIMARY OWNER: JANVI (Data Ingestion & RAG Specialist)
+# DEDICATED BRANCH: janvi/ingestion-rag-multimodal
+#
+# COMMIT SCHEDULE ATTRIBUTION:
+#   - Day 9: feat(rag): construct disk-persisted vector store with cosine similarity
+#   - Day 10: feat(rag): implement milvus and pinecone enterprise protocol adapters
+#   - Day 20: test(rag): verify vector database persistence and top-k ranking
+# ==============================================================================
 """
 Vector Database Engine with Milvus and Pinecone Adapters
 Manages persistent vector indexing, semantic search, and metadata querying for scientific literature.

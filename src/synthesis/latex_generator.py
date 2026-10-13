@@ -1,3 +1,15 @@
+# ==============================================================================
+# MODULE: Academic LaTeX Paper & BibTeX Generator
+# PRIMARY OWNER: SANSKAR (Statistical ML & UI Specialist)
+# DEDICATED BRANCH: sanskar/critic-synthesis-dashboard
+#
+# COMMIT SCHEDULE ATTRIBUTION:
+#   - Day 11: feat(synthesis): construct academic latex manuscript jinja template
+#   - Day 12: feat(synthesis): add latex table generator for statistical results
+#   - Day 13: feat(synthesis): build automated bibtex bibliography compiler
+#   - Day 15: feat(synthesis): build full latex manuscript compiler with error checks
+#   - Day 30: docs(paper): export final verified research manuscript and citations
+# ==============================================================================
 """
 LaTeX Research Paper Generator
 Compiles end-to-end multi-agent discoveries into academic LaTeX manuscripts and BibTeX bibliographies.

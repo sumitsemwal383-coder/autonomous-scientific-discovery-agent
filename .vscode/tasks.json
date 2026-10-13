@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Git: Check Daily Status",
+      "type": "shell",
+      "command": "git status",
+      "problemMatcher": []
+    },
+    {
+      "label": "Git: View 30-Day Branch History",
+      "type": "shell",
+      "command": "git log --oneline --graph --all -n 25",
+      "problemMatcher": []
+    },
+    {
+      "label": "Test: Run All Unit Tests",
+      "type": "shell",
+      "command": "python tests/test_sandbox_security.py; python tests/test_critic_agent.py; python tests/test_synthesis.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "Dashboard: Launch Streamlit",
+      "type": "shell",
+      "command": "streamlit run dashboard/app.py",
+      "problemMatcher": []
+    }
+  ]
+}

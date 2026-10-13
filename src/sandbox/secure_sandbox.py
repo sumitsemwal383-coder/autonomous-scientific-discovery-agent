@@ -1,3 +1,15 @@
+# ==============================================================================
+# MODULE: Secure AST Sandboxed Execution Engine
+# PRIMARY OWNER: SUMEET (Team Lead / Systems & Security)
+# DEDICATED BRANCH: sumeet/orchestrator-sandbox-rl
+#
+# COMMIT SCHEDULE ATTRIBUTION:
+#   - Day 4: feat(sandbox): build ast security visitor blocking unauthorized modules
+#   - Day 5: feat(sandbox): implement AST interception of eval, exec, and compile
+#   - Day 6: feat(sandbox): detect reflective sandbox breakouts on __subclasses__
+#   - Day 8: feat(sandbox): add isolated subprocess runner with 30s timeout enforcement
+#   - Day 28: test(sandbox): add path traversal and DoS termination test assertions
+# ==============================================================================
 """
 Secure Sandboxed Python Execution Engine
 Performs Static AST Security Validation to actively prevent jailbreaks and breakout attempts,

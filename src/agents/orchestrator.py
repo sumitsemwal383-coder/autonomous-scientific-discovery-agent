@@ -1,3 +1,15 @@
+# ==============================================================================
+# MODULE: Multi-Agent State Machine Orchestrator
+# PRIMARY OWNER: SUMEET (Team Lead / Systems & Security)
+# DEDICATED BRANCH: sumeet/orchestrator-sandbox-rl
+#
+# COMMIT SCHEDULE ATTRIBUTION:
+#   - Day 14: merge: integrate week 1 and 2 features into main
+#   - Day 18: feat(orchestrator): assemble multi-agent state graph transitions
+#   - Day 19: feat(orchestrator): connect sandbox execution and critic states
+#   - Day 20: test(orchestrator): create end-to-end multi-agent discovery cycle test
+#   - Day 30: merge: integrate all 30 days of features into main for final review
+# ==============================================================================
 """
 Multi-Agent Orchestrator for Autonomous Scientific Discovery
 Coordinates the end-to-end research workflow across Literature Reviewer, Hypothesis Generator,

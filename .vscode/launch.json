@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "🚀 Run Full Discovery Cycle (Sumeet / Lead)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/run_pipeline.py",
+      "args": ["--topic", "multi-agent reinforcement learning reasoning", "--max-papers", "4"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "🛡️ Run Sandbox Penetration Tests (Sumeet)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/run_security_audit.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "📚 Run Ingestion Unit Tests (Janvi)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/test_ingestion.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "📈 Run Statistical Critic Tests (Sanskar)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/test_critic_agent.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "📊 Launch Streamlit Dashboard (Sanskar)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "${workspaceFolder}/dashboard/app.py"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

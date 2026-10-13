@@ -1,3 +1,12 @@
+# ==============================================================================
+# MODULE: PubMed Entrez E-Utilities Ingestion Pipeline
+# PRIMARY OWNER: JANVI (Data Ingestion & RAG Specialist)
+# DEDICATED BRANCH: janvi/ingestion-rag-multimodal
+#
+# COMMIT SCHEDULE ATTRIBUTION:
+#   - Day 6: feat(ingestion): implement ncbi entrez esearch for biomedical papers
+#   - Day 7: feat(ingestion): parse pubmed esummary records and extract abstracts
+# ==============================================================================
 """
 PubMed Ingestion Pipeline
 Queries NCBI Entrez E-utilities to ingest peer-reviewed biomedical and computational biology preprints.

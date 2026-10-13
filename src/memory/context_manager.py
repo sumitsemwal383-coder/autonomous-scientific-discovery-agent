@@ -1,3 +1,13 @@
+# ==============================================================================
+# MODULE: Hierarchical Context Window Token Budget Manager
+# PRIMARY OWNER: SANSKAR (Statistical ML & UI Specialist)
+# DEDICATED BRANCH: sanskar/critic-synthesis-dashboard
+#
+# COMMIT SCHEDULE ATTRIBUTION:
+#   - Day 8: feat(memory): implement episodic context manager with token estimator
+#   - Day 9: feat(memory): implement sliding window history retention logic
+#   - Day 10: feat(memory): add milestone summarizer to compress aging episodes
+# ==============================================================================
 """
 Hierarchical Context Window Memory Manager
 Maintains agent coherence, manages token budget, compresses multi-day experimental history,

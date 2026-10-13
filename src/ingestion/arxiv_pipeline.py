@@ -1,3 +1,14 @@
+# ==============================================================================
+# MODULE: ArXiv Atom API Preprints Ingestion Pipeline
+# PRIMARY OWNER: JANVI (Data Ingestion & RAG Specialist)
+# DEDICATED BRANCH: janvi/ingestion-rag-multimodal
+#
+# COMMIT SCHEDULE ATTRIBUTION:
+#   - Day 2: feat(ingestion): implement arxiv atom api search query builder
+#   - Day 3: feat(ingestion): parse atom xml entries and extract preprint metadata
+#   - Day 4: feat(ingestion): implement local disk caching and fallback preprints
+#   - Day 14: feat(agents): connect literature reviewer to vector db indexing
+# ==============================================================================
 """
 ArXiv Ingestion Pipeline
 Queries the arXiv API, parses Atom XML feeds, and structures preprints with full metadata.

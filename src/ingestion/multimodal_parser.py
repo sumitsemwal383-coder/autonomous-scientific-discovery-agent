@@ -1,3 +1,15 @@
+# ==============================================================================
+# MODULE: Multimodal Scientific Document, Chart & Figure Parser
+# PRIMARY OWNER: JANVI (Data Ingestion & RAG Specialist)
+# DEDICATED BRANCH: janvi/ingestion-rag-multimodal
+#
+# COMMIT SCHEDULE ATTRIBUTION:
+#   - Day 15: feat(multimodal): build visual figure classifier for research pdfs
+#   - Day 16: feat(multimodal): extract quantitative trendlines from pdf loss curves
+#   - Day 17: feat(multimodal): parse comparative bar charts and extract confidence bounds
+#   - Day 18: feat(multimodal): synthesize visual evidence into structured text chunks
+#   - Day 21: feat(ingestion): wire multimodal visual evidence into vector store
+# ==============================================================================
 """
 Multimodal Document Parser
 Ingests scientific PDFs and images, extracting charts, diagrams, tables, and visual evidence
