@@ -1,3 +1,11 @@
+# ==============================================================================
+# MODULE: Global System Configuration & Security Thresholds
+# PRIMARY OWNER: SUMEET (Team Lead / Systems & Security)
+# DEDICATED BRANCH: sumeet/orchestrator-sandbox-rl
+#
+# COMMIT SCHEDULE ATTRIBUTION:
+#   - Day 1: feat(core): initialize system paths and security thresholds
+# ==============================================================================
 """
 Configuration and Settings for Autonomous Multimodal Scientific Discovery Agent.
 Enterprise Grade - Zaalima Development Compliant
